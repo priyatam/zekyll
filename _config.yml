@@ -1,2 +1,3 @@
 name: Thinking in Site Generators
+permalink: '/:title'
 pygments: true

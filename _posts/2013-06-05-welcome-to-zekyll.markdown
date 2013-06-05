@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Welcome to Zekyl"
-date:   2013-06-05 01:52:50
+date:   2013-06-05
 categories: news
 ---
-
+å
 Demos of static file generators.
 
 Minimal:
