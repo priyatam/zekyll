@@ -14,8 +14,6 @@ Why Liquid when you have Jekyll? Because Idiomatic Python--a Pythonista [doesn't
 
 No invalid markup like Jekyll does.
 
-[^yaml]: a key,value pair that adds up as meta data for jekyll pre-processor.
-
 Uses Jenja2 as template engine.
 
 Live reload and live preview with tornado (pip). Other goodies include zsh and webhooks plugins.
@@ -32,8 +30,7 @@ Overall, simpler than Jekyll, and also lesser plugins & ecosystem--but who knows
 
     ./ENV/bin/liquidluck init
 > hit enter and accept all defaults
-
-;; a default hello-world.md is added under content/
+> a default hello-world.md is added under content/
 
     ./ENV/bin/liquidluck build -v
 
