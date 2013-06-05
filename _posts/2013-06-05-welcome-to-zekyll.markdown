@@ -2,9 +2,9 @@
 layout: post
 title:  "Welcome to Zekyl"
 date:   2013-06-05
-categories: news
+categories: general
 ---
-å
+
 Demos of static file generators.
 
 Minimal:
