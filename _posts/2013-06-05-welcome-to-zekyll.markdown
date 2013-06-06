@@ -2,10 +2,10 @@
 layout: post
 title:  "Welcome to Zekyl"
 date:   2013-06-05
-categories: general
+categories: news
 ---
 
-Demos of static file generators.
+Here's what we'll learn.
 
 Minimal:
 1. yaml: [bonsai](http://tinytree.info)

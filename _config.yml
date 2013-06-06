@@ -1,3 +1,4 @@
 name: Thinking in Site Generators
+baseurl: /zekyll
 permalink: '/:title'
 pygments: true
