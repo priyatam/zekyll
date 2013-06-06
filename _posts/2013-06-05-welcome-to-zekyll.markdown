@@ -22,5 +22,8 @@ Fullstack:
 8. ruby/sinatra: [middleman](http://middlemanapp.com)
 9. python/django: [hyde](http://ringce.com/hyde)
 
-References:
-- The big bad [list](https://iwantmyname.com/blog/2011/02/list-static-website-generators.html) of static file generators.
+# References
+The big bad [list](https://iwantmyname.com/blog/2011/02/list-static-website-generators.html) of static file generators.
+[Hacking up sites with Middleman](http://darrenknewton.com/2012/09/16/hacking-up-sites-with-middleman/)
+http://www.flyingmachinestudios.com/programming/dissecting-gratefulplace/
+
