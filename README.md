@@ -2,18 +2,15 @@
 
 Thinking in Static file generators.
 
-Minimal:
-1. yaml: [bonsai](http://tinytree.info)
-2. git: [toto](http://cloudhead.io/toto)
+Small:
+- Git: [toto](http://cloudhead.io/toto)
 
-Just right:
-3. ruby: [jekyll](http://jekyllrb.com)
-4. python: [felix felicis](http://liquidluck.readthedocs.org)
-5. javascript/node: [nico](http://lab.lepture.com/nico)
-6. haskell: [hakyll](http://jaspervdj.be/hakyll/)
-7. clojure: [misaki](http://liquidz.github.io/misaki/)
+Medium:
+- Ruby: [jekyll](http://jekyllrb.com)
+- Python: [frozen flask](http://pythonhosted.org/Frozen-Flask/)
+- Haskell: [hakyll](http://jaspervdj.be/hakyll/)
 
-Fullstack:
-8. ruby/sinatra: [middleman](http://middlemanapp.com)
-9. python/django: [hyde](http://ringce.com/hyde)
-
+Large:
+- Ruby: [middleman](http://middlemanapp.com)
+- Python: [hyde](http://ringce.com/hyde)
+- Javascript: [docpad](http://docpad.org)
