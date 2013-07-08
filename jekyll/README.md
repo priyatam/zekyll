@@ -19,7 +19,7 @@ Rich Plugins: Caching, Full-text search, page excerpts, less processor, and many
 
 Dead simple CSS themes.
 
-# Bootstrap
+## First time users
 
     brew install ruby
 
@@ -31,7 +31,7 @@ Dead simple CSS themes.
 
     export PATH=$RBENV_ROOT:$BREW_RUBY_GEM:$PATH
 
-# Build and Run
+## Build
 
 > check ruby version
     rbenv local

@@ -1,26 +1,23 @@
-# Felix Felicis
-
-## Overview
-(A.K.A Felix Felicis)
+# Felix Felicis / Liquidluck
 
 Jekyll-inspired Python based static site generator.
 
-Uses pip, a cli similar to jekyll cli.
-
 Supports markup of Markdown and reStructuredText.
 
-Why Liquid when you have Jekyll? Because Idiomatic Python--a Pythonista [doesn't agree](http://liquidluck.readthedocs.org/en/latest/design.html) all of Jekyll.
+Why Liquid when you have Jekyll? Because Idiomatic Python--a Pythonista [doesn't agree](http://liquidluck.readthedocs.org/en/latest/design.html) says:
 > Don’t create anything.
 
 No invalid markup like Jekyll does.
 
 Uses Jenja2 as template engine.
 
-Live reload and live preview with tornado (pip). Other goodies include zsh and webhooks plugins.
+Live reload and live preview with tornado. Other goodies include zsh and webhooks plugins.
 
-Overall, simpler than Jekyll, and also lesser plugins & ecosystem--but who knows this might be a good thing.
+No support for plugins or extensions. That's a feature.
 
-# Bootstrap
+Overall, a simpler design than Jekyll.
+
+## First time users
 
     virtualenv ENV
 
