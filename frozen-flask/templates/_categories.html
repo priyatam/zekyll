@@ -1,0 +1,15 @@
+<ul>
+{% for page in pages %}
+    <li>
+        <a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a>
+        {% if page.meta.tags|length %}
+            | Categories:
+            {% for page_cat in page.meta.categories %}
+                <a href="{{ url_for("category", category=page_cat) }}">{{ page_cat }}</a>
+            {% endfor %}
+        {% endif %}
+    </li>
+    {% else %}
+    <li>No page.</li>
+{% endfor %}
+</ul>
