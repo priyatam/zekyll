@@ -1,13 +1,153 @@
----
-layout: default
-title: Zekyll - Thinking in Site Generators
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Zekyll by priyatam</title>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl | remove: ' ' }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Zekyll</h1>
+        <p>Thinking in static file generators</p>
+
+        <p class="view"><a href="https://github.com/priyatam/zekyll">View the Project on GitHub <small>priyatam/zekyll</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/priyatam/zekyll/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/priyatam/zekyll/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/priyatam/zekyll">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="zekyll" class="anchor" href="#zekyll"><span class="octicon octicon-link"></span></a>Zekyll</h1>
+
+<p>Static file generators come in more than ten languages. What you choose depends on your comfort, your taste, whether you're a developer or a designer. </p>
+
+<p>I recommend javascript and ruby toolkits. I think they're simple, designer friendly, and are backed by a thriving community who care about the web. </p>
+
+<p>In this POC, I compiled a list of toolkits with several languages, mostly for fun and learning. They are by no means the best; I just like them, that is all. If I had more time I'd include more.</p>
+
+<h2>
+<a name="what-i-talk-about-when-i-talk-about-static-sites" class="anchor" href="#what-i-talk-about-when-i-talk-about-static-sites"><span class="octicon octicon-link"></span></a>What I talk about when I talk about static sites</h2>
+
+<blockquote>
+<p>A toolkit that pre-processes static assets (css, images), content, templates, and simple logic between them in order to generate a custom website.</p>
+</blockquote>
+
+<p>This makes the site lightening <em>fast</em>. </p>
+
+<p>When you don't have a database, a server computing or rendering pages or data, when you can use the global delivery of a CDN to optimize and cache files like images, when you don't worry about css attacks (hackers hate static sites), let me tell me you, a site with pure static assets will roar.</p>
+
+<p>Servers love them. They do: they serve them for free. The best things in life are better when they're free. Think Sex.</p>
+
+<p>You can classify the toolkits into the following:</p>
+
+<p><strong>Small</strong></p>
+
+<p>The Minimalist, ascetic. No sex. </p>
+
+<p>Logic-less, file based.</p>
+
+<p>Best for users getting rid of cms in search of simplicity.</p>
+
+<p>Examples: </p>
+
+<ul>
+<li>Git: <a href="http://cloudhead.io/toto">Toto</a>
+</li>
+<li>Javascript: <a href="http://wintersmith.io">Wintersmith</a>
+</li>
+</ul><p><strong>Medium</strong></p>
+
+<p>Simple, yet flexible with limited options. Sex is fine with some strings attached.</p>
+
+<p>Most popular in this category as they solve 80% of your problems.</p>
+
+<p>Best for designers and developers who are comfortable with basic programming skills.</p>
+
+<p>Examples: </p>
+
+<ul>
+<li>Ruby: <a href="http://jekyllrb.com">Jekyll*</a>
+</li>
+<li>Python: <a href="http://pythonhosted.org/Frozen-Flask/">Frozen-Flask</a>, <a href="http://lab.lepture.com/liquidluck/">Liquidluck</a>
+</li>
+<li>Javascript: <a href="http://malarkey.github.io/Rock-Hammer">Hammer</a>
+</li>
+</ul><p><strong>Large</strong></p>
+
+<p>Fullstack, free love included, no strings attached. Think of the 60s.</p>
+
+<p>Covers a wide range of workflows templates, markups, pre-processors that hack the hell out of your content with helpers and plugins.</p>
+
+<p>Best for programmers getting ready for the leap.</p>
+
+<p>Examples: </p>
+
+<ul>
+<li>Ruby: <a href="http://middlemanapp.com">Middleman</a> </li>
+<li>Python: <a href="http://ringce.com/hyde">Hyde</a> </li>
+<li>Javascript: <a href="http://docpad.org">Docpad*</a>
+</li>
+</ul><hr><h2>
+<a name="a-designers-workflow" class="anchor" href="#a-designers-workflow"><span class="octicon octicon-link"></span></a>A Designer's workflow</h2>
+
+<p>I think?</p>
+
+<p>Write html, css, and templates. </p>
+
+<p>Things have improved since 1996; there's a better way: <em>Pre-processors</em>.</p>
+
+<p>Instead of HTML, use <em>Markdown, HAML, Slim</em>. </p>
+
+<p>Instead of repeating HTML, use Templates like <em>Jade</em>. </p>
+
+<p>Plain old CSS is so 1999--use <em>Less, Stylus, SCSS, Compass, Bourbon mixins</em>. </p>
+
+<p>Not everyone likes Javascript, use <em>Coffescript</em>.</p>
+
+<p>Designers can choose a Ruby or a Python stack:</p>
+
+<p>Ruby stack:</p>
+
+<ul>
+<li>html: haml, slim</li>
+<li>templates: handlebars</li>
+<li>css: sass, compass</li>
+<li>grids: h5bp, susy</li>
+<li>gen: middleman</li>
+</ul><p>Javascript stack:</p>
+
+<ul>
+<li>html: jade, handlebars, coffeekup</li>
+<li>css: less, stylus</li>
+<li>grids: bootstrap, cofeescript</li>
+<li>gen: node, docpad</li>
+</ul><hr><h2>
+<a name="references" class="anchor" href="#references"><span class="octicon octicon-link"></span></a>References</h2>
+
+<ol>
+<li><a href="http://nanoc.ws/about/">The mother of all lists</a></li>
+<li><a href="https://iwantmyname.com/blog/2011/02/list-static-website-generators.html">32 Static Website Generators</a></li>
+<li><a href="http://darrenknewton.com/2012/09/16/hacking-up-sites-with-middleman/">Hacking up sites with Middleman</a></li>
+</ol>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/priyatam">priyatam</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
