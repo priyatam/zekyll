@@ -97,6 +97,23 @@ Javascript stack:
 
 ---
 
+## Ideal Toolkit
+
+1. Write in Markdown
+2. Metadata in YAML
+3. Embed image, video, code, photos in posts
+4. Pages, Blogs, Wikis
+5. Full-text search capability
+6. Start with Html5 Boilerplate / Bootstrap
+7. One click push to github-pages
+8. Discuss comments
+9. Tweet / Pingback buttons 
+
+## Notable Frameworks
+
+1. [PieCrust](http://bolt80.com/piecrust/)
+2. [Punch](http://www.laktek.com/2012/04/19/punch-a-fun-and-easy-way-to-build-modern-websites/)
+
 ## References
 
 1. [The mother of all lists](http://nanoc.ws/about/)
