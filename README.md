@@ -1,4 +1,4 @@
-# Zekyll
+# Seven Static Site Toolkits
 
 Static file generators come in more than ten languages. What you choose depends on your comfort, your taste, whether you're a developer or a designer. 
 
