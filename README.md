@@ -1,118 +1,58 @@
-# Seven Static Site Toolkits
+# Static Site Generators and Toolkits
 
-Static file generators come in more than ten languages. What you choose depends on your comfort, your taste, whether you're a developer or a designer. 
+My ongoing research on static site generators, builders, and toolkits.
 
-I recommend javascript and ruby toolkits. I think they're simple, designer friendly, and are backed by a thriving community who care about the web. 
+## Introduction
 
-In this POC, I compiled a list of toolkits with several languages, mostly for fun and learning. They are by no means the best; I just like them, that is all. If I had more time I'd include more.
+What are static sites generators?
 
-## What I talk about when I talk about static sites
+Let me try:
 
-> A toolkit that pre-processes static assets (css, images), content, templates, and simple logic between them in order to generate a custom website.
+> A toolkit that pre-processes assets (css, images, fonts) and plaintext, adds html templates (compiled or as-is), provides configurable logic for them to link together, statically, as a standalone website.
 
-This makes the site lightening *fast*. 
+With static sites you don't need a database or server. You don't have to worry about css attacks. You can even configure your assets through a CDN. What's more, servers love them.
 
-When you don't have a database, a server computing or rendering pages or data, when you can use the global delivery of a CDN to optimize and cache files like images, when you don't worry about css attacks (hackers hate static sites), let me tell me you, a site with pure static assets will roar.
+They serve them for free.
 
-Servers love them. They do: they serve them for free. The best things in life are better when they're free. Think Sex.
+However, they come in several languages. What you choose depends on your comfort, your taste, whether you're a developer or a designer. There's no good answer for "what's a good static site generator", the same way there isn't a good answer for "what's a vegan cafe in San Francisco."
 
-You can classify the toolkits into the following:
+To know what's good for me, I tell myself: let me try it.
 
-**Small**
+## How to choose
 
-The Minimalist, ascetic. No sex. 
+Use it. Change it. Write your own.
 
-Logic-less, file based.
+I [did](https://github.com/priyatam/frozen-pie).
+
+What I learned about static sites (so far, at least):
+
+**Minimalist**
+
+Basic. Logic-less. File based.
 
 Best for users getting rid of cms in search of simplicity.
 
-Examples: 
+Git: [Toto](http://cloudhead.io/toto), Javascript: [Wintersmith](http://wintersmith.io), etc.,
 
-- Git: [Toto](http://cloudhead.io/toto)
-- Javascript: [Wintersmith](http://wintersmith.io)
+**Good intentions**
 
-**Medium**
+Simple, yet flexible with some options. Most popular to solve "the 80%".
 
-Simple, yet flexible with limited options. Sex is fine with some strings attached.
+Best for designers comfortable with basic programming skills, and developers who want a boilerplate to configure.
 
-Most popular in this category as they solve 80% of your problems.
+Ruby: [Jekyll*](http://jekyllrb.com), Python: [Frozen-Flask](http://pythonhosted.org/Frozen-Flask/), [Liquidluck](http://lab.lepture.com/liquidluck/), Javascript: [Hammer](http://malarkey.github.io/Rock-Hammer), etc.,
 
-Best for designers and developers who are comfortable with basic programming skills.
+**Fullstack**
 
-Examples: 
+Cover a range of workflows, templating languages, markups, pre-processors that hack the hell out of your content with plugins.
 
-- Ruby: [Jekyll*](http://jekyllrb.com)
-- Python: [Frozen-Flask](http://pythonhosted.org/Frozen-Flask/), [Liquidluck](http://lab.lepture.com/liquidluck/)
-- Javascript: [Hammer](http://malarkey.github.io/Rock-Hammer)
+Best for programmers who like to modify, integrate, and connect the missing dots with code.
 
-**Large**
+Ruby: [Middleman](http://middlemanapp.com), Python: [Hyde](http://ringce.com/hyde), Javascript: [Docpad*](http://docpad.org), etc.,
 
-Fullstack, free love included, no strings attached. Think of the 60s.
+**Odd, but good**
 
-Covers a wide range of workflows templates, markups, pre-processors that hack the hell out of your content with helpers and plugins.
-
-Best for programmers getting ready for the leap.
-
-Examples: 
-
-- Ruby: [Middleman](http://middlemanapp.com) 
-- Python: [Hyde](http://ringce.com/hyde) 
-- Javascript: [Docpad*](http://docpad.org)
-
----    
-
-## A Designer's workflow
-
-I think?
-
-Write html, css, and templates. 
-
-Things have improved since 1996; there's a better way: *Pre-processors*.
-
-Instead of HTML, use *Markdown, HAML, Slim*. 
-
-Instead of repeating HTML, use Templates like *Jade*. 
-
-Plain old CSS is so 1999--use *Less, Stylus, SCSS, Compass, Bourbon mixins*. 
-
-Not everyone likes Javascript, use *Coffescript*.
-
-Designers can choose a Ruby or a Python stack:
-
-Ruby stack:
-
-- html: haml, slim
-- templates: handlebars
-- css: sass, compass
-- grids: h5bp, susy
-- gen: middleman
-
-
-Javascript stack:
-
-- html: jade, handlebars, coffeekup
-- css: less, stylus
-- grids: bootstrap, cofeescript
-- gen: node, docpad
-
----
-
-## Ideal Toolkit
-
-1. Write in Markdown
-2. Metadata in YAML
-3. Embed image, video, code, photos in posts
-4. Pages, Blogs, Wikis
-5. Full-text search capability
-6. Start with Html5 Boilerplate / Bootstrap
-7. One click push to github-pages
-8. Discuss comments
-9. Tweet / Pingback buttons 
-
-## Notable Frameworks
-
-1. [PieCrust](http://bolt80.com/piecrust/)
-2. [Punch](http://www.laktek.com/2012/04/19/punch-a-fun-and-easy-way-to-build-modern-websites/)
+[PieCrust](http://bolt80.com/piecrust/), [Punch](http://www.laktek.com/2012/04/19/punch-a-fun-and-easy-way-to-build-modern-websites/).
 
 ## References
 
